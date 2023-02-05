@@ -9,6 +9,7 @@ pipeline {
                 sh '''
                 echo 'Multiline'
 		echo "hiii"
+		echo "hi"
                 echo 'Example'
                 '''
                 echo 'not using shell'
