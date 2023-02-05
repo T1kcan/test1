@@ -8,6 +8,7 @@ pipeline {
                 sh 'echo another step'                
                 sh '''
                 echo 'Multiline'
+		echo "hiii"
                 echo 'Example'
                 '''
                 echo 'not using shell'
