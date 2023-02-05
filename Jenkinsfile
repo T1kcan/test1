@@ -14,5 +14,12 @@ pipeline {
                 echo 'not using shell'
             }
         }
+                stage('run') {
+            steps {
+                echo 'TCH the first step'
+                sh 'python --version'
+                sh 'python pipeline.py'
+            }
+        }
     }
 }
