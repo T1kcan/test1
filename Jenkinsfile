@@ -18,7 +18,7 @@ pipeline {
             steps {
                 echo 'TCH the first step'
                 sh 'python --version'
-                sh 'python pipeline.py'
+                sh 'python hello-world.py'
             }
         }
     }
